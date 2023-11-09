@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
 import { useEffect, useState } from 'react';
-import * as ImagePicker from 'expo-image-picker';
+import * as ImagePicker from 'expo-image-picker'; //expo install expo-camera & expo install expo-image-picker
 
 export default function App() {
   const [data, setData] = useState('');
